@@ -1,0 +1,2 @@
+# DIGIBADGE
+Digital badges could be motivating to learners and useful to educators by creating a badging system for a youth-focused technology program. It helps educators track their students’ progress. They also equip learners with a tool to acknowledge their accomplishments and show what they are learning. There is great potential for badges to be valuable for industry when it comes to hiring competent employees.
