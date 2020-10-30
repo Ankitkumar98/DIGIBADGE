@@ -1,0 +1,133 @@
+body{
+    height: 100%;
+    margin:0;
+   
+}
+img{
+    position: absolute;
+    height:100%;
+    width:100%;
+    opacity:0.2;
+    background-size: cover;
+}
+.topnav {
+    background-color:rgba(2, 20, 61,1);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  
+  .topnav a:hover {
+   
+    color: rgb(93, 235, 5);
+  }
+  
+  
+  .topnav a.active {
+   
+    color: rgb(93, 235, 5);
+  }
+  h1.heading{
+      margin-top: 2em;
+      margin-left: 17em;
+      position: relative;
+      z-index: 2;
+  }
+  div.sub-heading{
+      margin-left:4em;
+      margin-right:4em;
+      margin-top:2em;
+      display:grid;
+      grid-template-columns: auto auto auto auto ;
+      background-color:blue;
+      height:35%;
+      border-radius: 1.5em;
+      border: 2px solid black;
+      transition: 0.3s;
+      box-shadow: 0 0.5 0.75em 0 rgb(0,0,0);
+      position: relative;
+      z-index: 2;
+  }
+  .sub-heading:hover {
+    box-shadow: 0 0.5em 1em 0 rgba(0,0,0,1);
+  }
+  code.update{
+    font-weight: bold;
+    font-size:1em;
+    color: white;
+     margin-top: 1.4em;
+     margin-left:1em;
+     position: relative;
+      z-index: 2;
+  }
+  code{
+      font-weight: bold;
+      font-size:1em;
+      color: white;
+       margin-top: 0.9em;
+       margin-left:1em;
+  }
+  div.row-grid{
+      height:100%;
+      width:100%;
+     display:grid;
+     grid-template-rows: auto auto auto auto auto auto auto;
+     
+
+  }
+
+  .button {
+    display: inline-block;
+    border-radius: 1.5em;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size:1em;
+   
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 10px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .checked {
+    color: orange;
+  }
