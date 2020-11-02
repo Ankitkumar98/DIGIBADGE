@@ -9,12 +9,13 @@ html, body {
 .instr,.ques{
     background-color: darkcyan;
     height:20em;
-    margin-top:8em;
+    margin-top:0em;
     margin-left:20em;
     margin-right:20em;
     border: 5px solid black;
     transition: 0.3s;
     box-shadow: 0 0.5 0.75em 0 rgb(0,0,0);
+    
 }
 .instr:hover {
     box-shadow: 0 0.5em 1em 0 rgba(0,0,0,1);
@@ -105,4 +106,18 @@ html, body {
   cursor: pointer;
   margin-left:10em;
   margin-top: 1em;
+}
+.ques{
+  margin-top:10em;
+}
+.timer{
+  margin-left:23em;
+  margin-right:25em;
+  background-color: cornsilk;
+  margin-top:0.5em;
+  margin-bottom:1em;
+  padding-left:0.25em;
+}
+.instr{
+  margin-top:10em;
 }
