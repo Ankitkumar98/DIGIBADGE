@@ -7,9 +7,9 @@ Digital badges could be motivating to learners and useful to educators by creati
 <h2>Team Details</h2>
 <hr>
 <em><u>TEAM NAME : TEAM DARTH VADER</u></em><br>
-<b>Team Leader : </b>Ankit Kumar [Email](mailto:ankitkumar.adi13@gmail.com) <br>
-<b>Member 2 : </b>Ashish Prasad [Email](mailto:prasad.ashish162@gmail.com) <br>
-<b>Member 3 : </b>Divyansh Singh [Email](mailto:singh.divyansh1802@gmail.com) <br>
+<b>Team Leader : </b><a href="mailto:ankitkumar.adi13@gmail.com">Ankit Kumar</a> <br>
+<b>Member 2 : </b><a href="mailto:prasad.ashish162@gmail.com">Ashish Prasad</a> <br>
+<b>Member 3 : </b><a href="mailto:singh.divyansh1802@gmail.com">Divyansh Singh</a> <br>
 
 <h2>Project Details</h2>
 <hr>
