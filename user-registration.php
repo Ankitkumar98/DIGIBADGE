@@ -8,5 +8,7 @@ if(isset($_POST['register_submit']))
     $register_query="INSERT INTO user_login VALUES('$mail','$passw','0')";
     $register_result=mysqli_query($dbc,$register_query) or die("register query not executed");
     echo 'registration sucessfull';
-    header("refresh: 5; url=http://localhost/globalshala/DIGIBADGE-3(latest)/template/ankit/login.php");
+    mysqli_close($dbc);
+    header("refresh: 0; url=http://localhost/globalshala/final/login.php");
 }
+?>

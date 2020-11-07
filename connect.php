@@ -5,5 +5,5 @@
     $database="digibadge";
 
     $dbc=mysqli_connect($server,$username,$databasepassword,$database) or die("Error connecting to database");
-   // echo 'database connected\n';
+   // echo 'database connected';
 ?>

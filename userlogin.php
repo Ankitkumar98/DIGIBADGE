@@ -13,12 +13,12 @@ echo 'login page';
      {
          echo 'login sucessfull';
          $_SESSION['user_profile']=$email;
-         header('refresh: 5; url=http://localhost/globalshala/DIGIBADGE-3(latest)/template/ankit/profile.php');
+         header('refresh: 0; url=http://localhost/globalshala/final/profile.php');
      }
      else
      {
          echo 'login unsucessfull';
-         header('refresh: 5; url=http://localhost/globalshala/DIGIBADGE-3(latest)/template/ankit/login.php');
+         header('refresh: 0; url=http://localhost/globalshala/final/login.php');
      }
  }
 
