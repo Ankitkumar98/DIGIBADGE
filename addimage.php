@@ -22,13 +22,13 @@
             if(!move_uploaded_file($imagesource,$target_badge))
             {
                 echo "badge not moved to destination folder";
-                header('refresh : 5; url=file:///C:/xampp/htdocs/globalshala/DIGIBADGE/template/ankit/edit-profile.html');                        
+                header('refresh : 5; url=file:///C:/xampp/htdocs/globalshala/final/edit-profile.html');                        
             }
             
             $imagequery="INSERT INTO badges VALUES('$name','$code','$image','$score')";
             $imageresult=mysqli_query($dbc,$imagequery) or die("badge query not executed");
             echo 'data uploaded';
-            
+            mysqli_close($dbc);
         }
 
     ?>

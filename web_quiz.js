@@ -3,9 +3,9 @@ const exit=document.getElementById('exit-btn');
 const question = document.getElementById('question-container');
 const message=document.getElementById('mess');
 const next=document.getElementById('next-btn');
-const answerButtonsElement = document.getElementById('answer-buttons')
+const answerButtonsElement = document.getElementById('answer-buttons');
 const questionElement = document.getElementById('question');
-const sc=document.getElementById('score-btn');
+const sc=document.getElementById('score');
 const card=document.getElementById('score_card');
 const timercard=document.getElementById('settimer');
 let score,currentquestion,prev;
@@ -102,6 +102,8 @@ function selectanswer(e)
 
 }
 exit.addEventListener('click',scorecard);
+
+
 function scorecard()
 {
     question.classList.add('hide');
@@ -109,7 +111,9 @@ function scorecard()
     card.classList.remove('hide');
     
     timercard.classList.add('hide');
-    sc.innerText=Number(score)+"/"+Number(10);
+    sc.value=Number(score);
+    sc.disabled = true;
+    //+"/"+Number(10);
     
 }
 
@@ -130,9 +134,19 @@ function updatetime()
 
 
 
+/*const questions=[
+  {
+    question: '-> HTML stands for -',
+    answers: [
+      { text: 'HighText Machine Language', correct: "false" },
+      { text: 'HyperText and links Markup Language', correct: "false" },
+      { text: 'HyperText Markup Language', correct: "true" },
+      { text: 'None of these', correct: "false" }
+    ]
+  }
+]
 
-
-
+*/
 
 
 const questions = [

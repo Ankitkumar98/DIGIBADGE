@@ -23,10 +23,10 @@
         <nav>
             <ul>
                 <li><a href="./index.html" style="font-weight: bold;color:#2c3e50 ;font-size: 35px;border: 0px; padding: 0px 0px 0px 0px;">DigiBadge</a></li>
-                <li><a href="#">HOME</a></li>
+                <li><a href="./index.html">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="./editprofile.php"  class="active">EDIT</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="test.php">TEST</a></li>
                 <li style="float: right;padding-top: 20px;"><a href="./logout.php">LOGOUT</a></li>
             </ul>
         </nav>      

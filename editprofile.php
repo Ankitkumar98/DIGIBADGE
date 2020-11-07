@@ -12,18 +12,18 @@
         <nav>
             <ul>
                 <li><a href="./index.html" style="font-weight: bold;color:#2c3e50 ;font-size: 35px;border: 0px; padding: 0px 0px 0px 0px;">DigiBadge</a></li>
-                <li><a href="#">HOME</a></li>
+                <li><a href="./index.html">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
-                <li><a href="#"  class="active">EDIT</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li style="float: right;padding-top: 20px;"><a href="#">LOGOUT</a></li>
+                <li><a href="#"  class="active" disabled>EDIT</a></li>
+                <li><a href="./profile.php">PROFILE</a></li>
+                <li style="float: right;padding-top: 20px;"><a href="./logout.php">LOGOUT</a></li>
             </ul>
         </nav>      
         </div>
     </header>
 
     <div class="edit-profile">
-      <form class="edit-form" action="./update-profile.php" method="POST">
+      <form class="edit-form" action="./update-profile.php" method="POST" enctype="multipart/form-data">
         <div class="left">
           <div class="profile-image">
             <label for="profile-pic">Profile Pic</label>
@@ -144,7 +144,7 @@
             <label for="college">Organisation/College</label>
             <input
               type="text"
-              name="college"
+              name="organisation"
               size="50"
               placeholder="e.g KIIT"
             />
@@ -184,7 +184,7 @@
 
         <div class="content">
           <button class="btn corousal_btn1" type="button">Back To Home</button>
-          <button class="btn corousal_btn1" type="submit">Save Changes</button>
+          <button class="btn corousal_btn1" name="submit" type="submit">Save Changes</button>
         </div>
       </form>
     </div>
