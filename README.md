@@ -24,3 +24,24 @@ This project uses three technologies/languages. <br>
 - Clone the repo. <br>
 - Open <em>index.html</em> file in any browser. <br>
 - You are good to go. Go and play with this website and have fun. <br>
+
+<h2>Snapshots</h2>
+<hr>
+<h3>Home Page</h3><hr>
+<img src="./snapshots/index_1.png" />
+<img src="./snapshots/index_2.png" />
+<img src="./snapshots/index_3.png" />
+<h3>Register Page</h3><hr>
+<img src="./snapshots/register.png" />
+<h3>Login Page</h3><hr>
+<img src="./snapshots/login.png" />
+<h3>User Profile Page</h3><hr>
+<img src="./snapshots/profile_1.png" />
+<img src="./snapshots/profile_2.png" />
+<img src="./snapshots/profile_3.png" />
+<h3>Test Portal Page</h3><hr>
+<img src="./snapshots/test_1.png" />
+<img src="./snapshots/web_dev_test_1.png" />
+<img src="./snapshots/start_test.png" />
+<img src="./snapshots/test_portal.png" />
+<img src="./snapshots/score.png" />
